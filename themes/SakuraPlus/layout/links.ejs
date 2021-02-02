@@ -23,6 +23,38 @@
   <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
     <% if (page.links) { %>
       <div class="links">
+        <% if (theme.mylinkinfo.enable){ %>
+        <p>🌼欢迎交换友链</p>
+        <p>
+          <strong>👀我的友链：</strong>
+          <br>
+          ★ 名称: <%- theme.mylinkinfo.name %>
+          <br>
+          ★ 描述: <%- theme.mylinkinfo.desc %>
+          <br>
+          ★ 地址: <%- theme.mylinkinfo.url %>
+          <br>
+          ★ 头像: <a href="https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg" target="_blank" rel="nofollow">
+          <%- theme.mylinkinfo.img %></a>
+        </p>
+        <p>
+          <strong>请留言告诉我你的：</strong>
+          <br>
+          ★ name:
+          <br>
+          ★ desc:
+          <br>
+          ★ url:
+          <br>
+          ★ img:
+        </p>
+        <p style="font-size:13px;color:#f99">
+        ※ 为保证友链质量，今后新申请的友链将经过筛选，请在收到我的回复邮件后再于贵站添加本站链接。
+        原则上过去已添加友链不会轻易删除，如遇死链、改变网站用途（友链主要针对的是同类的博客），将单独移至“阵亡将士”分类中，下次清理时未整改的将移除；
+        如遇盗版、破解、网页植入挖矿脚本、极低质量内容、单方面移除本站链接，将直接移除，恕不另行通知。
+        </p>
+      </div>
+      <div class="links">
         <% (page.links||[]).forEach(function (group, index) { %>
           <h3 class="link-title"><span class="fake-title"><%- index + 1 %>. <%- group.group %></span></h3>
           <% if (group.desc) { %>
@@ -43,31 +75,8 @@
           </ul>
         <% }) %>
       </div>
+      <p><strong>Tips:</strong><br>网站不要求https强制加锁，但头像图片尽量用安全链接哦！</p>
     <% } %>
-    <div class="links">
-      <% if (theme.mylinkinfo.enable){ %>
-      <h2>🌼欢迎交换友链</h2>
-        <h3>请留言告诉我你的:</h3>
-          <pre>
-            <code>
-name: 名称
-url: 地址
-img: 头像
-desc: 描述
-            </code>
-          </pre>
-        
-        <%- theme.mylinkinfo.tips %>
-        <h3>👀我的友链：</h3>
-        <pre>
-          <code>
-name: <%- theme.mylinkinfo.name %>
-url: <%- theme.mylinkinfo.url %>
-img: <%- theme.mylinkinfo.img %>
-desc: <%- theme.mylinkinfo.desc %>
-          </code>
-        </pre>
-    </div>
     <% } %>
     <%- partial('_partial/valine', {post: page})  %>
     <%- partial('_partial/gitalk', {post: page})  %>
@@ -82,8 +91,8 @@ desc: <%- theme.mylinkinfo.desc %>
       </div>
     </footer><!-- .entry-footer -->
   </article>
-  <!-- <div class="have-toc">
-  </div>
+  <div class="have-toc">
+  <!-- </div>
     <div class="toc-container" style="height: 4886.5px;">
       <div class="toc">
         <ol class="toc-list ">
