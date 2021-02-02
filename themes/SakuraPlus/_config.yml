@@ -319,7 +319,7 @@ weather:
 # 建议一项只开一个
 js:
   hititle: ture #浏览器搞笑标题
-  KeyBlock: ture #按键屏蔽,不能F12调试和查看源代码
+  KeyBlock: false #按键屏蔽,不能F12调试和查看源代码
   bg:
     sakura_petals: false  #仅在首页花瓣飘落（大内存）
     snow_petals: false # 雪花飘落（大内存）

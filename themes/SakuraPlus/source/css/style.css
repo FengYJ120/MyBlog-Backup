@@ -926,9 +926,13 @@ abbr[title] {
     border-bottom: 1px dotted
 }
 
-b,
-strong {
+b {
     font-weight: bold
+}
+
+strong {
+    font-weight: bold;
+    color: #b5302e;
 }
 
 dfn {
@@ -1116,9 +1120,13 @@ p {
 
 dfn,
 cite,
-em,
 i {
     font-style: italic
+}
+
+em {
+    font-style: italic;
+    color: #949415;
 }
 
 blockquote {
