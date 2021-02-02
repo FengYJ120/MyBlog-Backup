@@ -932,7 +932,7 @@ b {
 
 strong {
     font-weight: bold;
-    color: #b5302e;
+    color:red;
 }
 
 dfn {
@@ -1076,21 +1076,33 @@ optgroup {
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0
+    /* border-collapse: collapse;    */
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+table thead {
+  background-color: #e7ecf3;
+  color: #000;
 }
 
 td,
 th {
-    padding: 0
-        /* font-size: inherit;
+    padding: 0;
+    font-size: inherit;
     overflow: visible;
     padding: .5em 1em;
     border-width: 1px 1px 1px 1px;
-    border-bottom: 1px solid #cbcbcb;
-    border-left: 1px solid #cbcbcb;
-    border-right: 1px solid #cbcbcb;
-    border-top: 1px solid #cbcbcb; */
+    border-bottom: 1px solid #1d1f21;
+    border-left: 1px solid #1d1f21;
+    border-right: 1px solid #1d1f21;
+    border-top: 1px solid #1d1f21;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    
 }
 
 body,
