@@ -93,9 +93,9 @@ bg:
   - https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cover/2.png
   - https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cover/20.png
 
-# 背景音乐
+# 侧边栏
 left_side_bar:
-  enable: false
+  enable: true
 
 bg_music: https://cdn.jsdelivr.net/gh/cungudafa/cdn@latest/music/lovingstrangers.mp3
 
@@ -118,11 +118,9 @@ homePageSortType: -1
 # Home page article shown number)首页最多显示文章数
 homeArticleShown: 10
 
-
 # 首页卡片显示文章描述
 post_description:
-  enable: true # 自动获取文章前50字
-
+  enable: true # 自动获取文章前50字  
 
 #--------------------------------功能页面-------------------------------------------
 donate:
@@ -221,9 +219,13 @@ gitalk:
 # 友链页信息,tips支持html语言
 mylinkinfo:
   enable: true
-  tips: '<p><strong>Tips:</strong>网站不要求https强制加锁，但头像图片尽量用安全链接哦！</p> <p style="font-size: 13px;color: #ff9999;"> 1. 请先 <font color=#ff1234 size=5>添加本站链接</font>，在本站留言，待站长审核通过即添加友链。<br>2. 拒绝广告站，技术博客优先~<br>3. 对于取消本站链接或死链，站长会定期移除。</p>'
+  tips: ' <p style="font-size: 13px;color: #ff9999;"> 
+            1. 为保证友链质量，新申请的友链将经过筛选，请在收到我的回复邮件后再于贵站添加本站链接。<br>
+            2. 原则上已添加的友链不会轻易删除，如遇死链、改变网站用途，将单独移至“阵亡将士”分类中，下次清理时未整改的将移除；<br>
+            3. 如遇盗版、破解、网页植入挖矿脚本、极低质量内容、单方面移除本站链接，将直接移除，恕不另行通知。
+          </p>'
   name: ZERO-JAN
-  desc: 算是一个有趣的人
+  desc: 算是半个有趣的人
   url: https://www.zero-jan.xyz
   img: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg
 
@@ -331,35 +333,34 @@ js:
     love: false #点击出现爱心
     cursor: false # 星星跟随坠落(大内存)
 
-
 #------------------------------CDN，非必要，不要修改-----------------------------
 
 libs:
   css:
     googlefonts: https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC
     style: /css/style.css #https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/style.css # 
-    lib: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/lib.min.css
-    font: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/font.css
+    lib: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/lib.min.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/lib.min.css
+    font: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/font.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/font.css
     insight: /css/insight.css
-    tags: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/tags.css
-    fancybox: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/jquery.fancybox.min.css
-    sharejs: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/sharejs.css
+    tags: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/tags.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/tags.css
+    fancybox: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/jquery.fancybox.min.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/jquery.fancybox.min.css
+    sharejs: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/sharejs.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/sharejs.css
     tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css
     live2d_widget: https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
     logo:
       enable: true # 自定义logo
-      logo: https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/logo.css
-      logo_fonts: https://cdn.jsdelivr.net/gh/cungudafa/cdn/fonts/LOGO/logo.css
+      logo: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/css/logo.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/css/logo.css
+      logo_fonts: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/fonts/LOGO/logo.css # https://cdn.jsdelivr.net/gh/cungudafa/cdn/fonts/LOGO/logo.css
   js:
     jquery: https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js
     linkcard: /js/linkcard.js
-    lib: https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/lib.min.js
+    lib: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/js/lib.min.js # https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/lib.min.js
     clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
-    InsightSearch: https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/InsightSearch.js
-    sakura_app: https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/sakura-app.js  #/js/sakura-app.js
+    InsightSearch: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/js/InsightSearch.js # https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/InsightSearch.js
+    sakura_app: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/js/sakura-app.js # https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/sakura-app.js  #/js/sakura-app.js
     busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js 
-    fancybox: https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/jquery.fancybox.min.js
-    echarts: https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/echarts.min.js
+    fancybox: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/js/jquery.fancybox.min.js # https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/jquery.fancybox.min.js
+    echarts: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/js/echarts.min.js # https://cdn.jsdelivr.net/gh/cungudafa/cdn/js/echarts.min.js
     valine: https://unpkg.com/valine/dist/Valine.min.js
     sakura_petal: https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/sakura.js #other
     hititle: https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/hititle.js 
