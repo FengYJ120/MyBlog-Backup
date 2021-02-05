@@ -2,14 +2,14 @@
 <link rel="stylesheet" href="<%- theme.libs.css.tocbot %>">
 <div class="pattern-center-blank"></div>
 <% if (post.photos && post.photos.length){ %>
-<div class="pattern-center single-center">
+<div class="pattern-center single-center" >
   <!-- 有配图默认渲染第一张 -->
   <div class="pattern-attachment-img lazyload" style="background-image: url(<%= post.photos[0] %>);"
     src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
   </div>
   <header class="pattern-header single-header">
-    <h1 class="entry-title"><%- post.title %></h1>
-    <p class="entry-census">
+    <h1 class="entry-title" style="color: black;"><%- post.title %></h1>
+    <p class="entry-census" style="color: blueviolet;">
       <% if(post.avatar){ %>
       <span class="post-meta-item">
         <a href="<%- post.authorLink%>">
@@ -19,7 +19,7 @@
       <% } %>
       <% if(post.author){ %>
       <span class="post-meta-item">
-        <a href="<%- post.authorLink%>"> <%- post.author %> </a>
+        <a href="<%- post.authorLink%>" style="color: blueviolet;"> <%- post.author %> </a>
       </span>
       <span class="bull">
         ·</span>
@@ -52,14 +52,14 @@
       <span class="bull">
         ·</span>
       <!-- 评论数显示 -->
-      <!-- <span class="post-meta-item" <% if (post.encrypt == true) { %>style="display:none" <% } %>>
+      <span class="post-meta-item" <% if (post.encrypt == true) { %>style="display:none" <% } %>>
               <span class="post-meta-item-icon">
                 <i class="fa fa-comment-o"></i>
               </span>
               </span class="post-meta-item-text">
                 <span class="valine-comment-count" data-xid="/<%- post.abbrlink%>"> </span>
               </span>
-          </span> -->
+          </span>
     </p>
   </header>
 </div>

@@ -4,11 +4,10 @@ author: ZERO JAN
 avatar: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg'
 authorLink: 'https://www.zero-jan.xyz'
 categories: 资源
-keywords: Sakura
 tags: 测试
-description: 第一篇文章
+description: hello world
 comments: false
-photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/banner/coding.jpg'
+photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/hello-world.jpeg'
 abbrlink: 14786
 date: 2021-01-14 22:12:20
 ---

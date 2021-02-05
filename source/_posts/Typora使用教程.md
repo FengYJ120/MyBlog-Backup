@@ -4,11 +4,10 @@ author: ZERO JAN
 avatar: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg'
 authorLink: 'https://www.zero-jan.xyz'
 categories: 技术
-keywords: Typora
 tags: Typora
 description: Typora使用教程
 comments: ture
-photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg'
+photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/Typroa.jpeg'
 abbrlink: 64516
 date: 2020-08-01 15:06:00
 ---
