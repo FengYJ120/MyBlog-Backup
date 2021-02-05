@@ -163,7 +163,6 @@ css_minifier:
     - '**/*.min.css'
     - 'jquery.fancybox.min.css'
     - '**/live2d-widget/waifu.css'
-    - 'style.css'
 
 # js压缩
 js_minifier:

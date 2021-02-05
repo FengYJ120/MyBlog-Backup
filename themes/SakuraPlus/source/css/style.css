@@ -7952,10 +7952,10 @@ input[type=radio]:checked:before {
     }
 }
 
-position:relative;
+/* position:relative;
 z-index:99;
 cursor:pointer
-}
+} */
 
 .changeSkin-gear span:before {
     content: "切换主题 | Change Skin "
