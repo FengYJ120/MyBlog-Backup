@@ -148,6 +148,50 @@ feed:
 #     path: true
 #     preview: true
 
+all_minifier: true
+# html压缩
+html_minifier:
+  enable: true
+  ignore_error: false
+  exclude:
+
+# css压缩
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+    - '**/*.min.css'
+    - 'jquery.fancybox.min.css'
+    - '**/live2d-widget/waifu.css'
+    - 'style.css'
+
+# js压缩
+js_minifier:
+  enable: true
+  mangle: true
+  compress:
+  exclude:
+    - '*.min.js'
+    - '**/*.min.js'
+    - 'jquery.fancybox.min.js'
+    - '**/live2d-widget/*.js'
+    - '**/live2d-widget/*.min.js'
+    - 'botui.js'
+js_concator:
+  enable: false
+  bundle_path: '/js/bundle.js'
+  front: false
+  silent: false
+
+# 图片优化
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
 # hexo-neat
 # md博文压缩
 # neat_enable: false
