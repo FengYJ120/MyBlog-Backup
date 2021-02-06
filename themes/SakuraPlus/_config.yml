@@ -277,14 +277,18 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: G-8SP07H50X6
 
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置 https://tongji.baidu.com/
 baiduAnalytics:
-  enable: false # 百度分析
-  id: b05d6287bdeab72f3886bffe3cff054a
+  enable: true # 百度分析
+  id: e39c3b3f464575d5a7704f786347e0bc
+
+# 开启百度站长平台自动推送(https://ziyuan.baidu.com/linksubmit/index)
+# 页面被访问了，就会被推送过去。
+baidu_push: true
 
 # 自动生成sitemap
 sitemap:
@@ -319,7 +323,7 @@ js:
     snow_petals: false # 雪花飘落（大内存）
     piao: false #飘动彩带
     live2d_widget: false #看板娘 需jq（大内存）
-    bgchange: true # 是否开启壁纸切换
+    bgchange: false # 是否开启壁纸切换
   clink:
     word: ture #点击出现字效
     love: false #点击出现爱心

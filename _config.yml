@@ -87,6 +87,16 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# 自动生成sitemap
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -119,9 +129,12 @@ theme: SakuraPlus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: git@github.com:FengYJ120/FengYJ120.github.io.git
+- type: git
+  repository: 
+    github: git@github.com:FengYJ120/FengYJ120.github.io.git
   branch: master
+# 发布时，同时进行百度推送
+- type: baidu_url_submitter
 
 # Backup
 backup:
@@ -141,18 +154,19 @@ feed:
   order_by: -date
   icon: #icon.png
 
-# # Search
-# jsonContent:
-#   pages:
-#     title: true
-#     text: true
-#     path: true
-#     preview: true
-#   posts:
-#     title: true
-#     text: true
-#     path: true
-#     preview: true
+# 百度主动推送
+baidu_url_submit:
+  count: 1 ## 提交最新的一个链接
+  host: www.zero-jan.xyz ## 在百度站长平台中注册的域名
+  token: KDvWCJAMrBx1Y242 ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
+# 自动为站内链接加上nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'www.zero-jan.xyz'
 
 all_minifier: true
 # html压缩
@@ -196,38 +210,3 @@ image_minifier:
   optimizationLevel: 2
   pngquant: false
   progressive: false
-
-# hexo-neat
-# md博文压缩
-# neat_enable: false
-#   mangle: true #打印日志
-#   exclude:
-#     - '计算机三级嵌入式系统开发技术.md'
-# 压缩html（ejs，swig等也属于html格式片段）
-# neat_html:
-#   enable: false
-#   mangle: true #打印日志
-#   exclude:
-# 压缩css  
-# neat_css:
-#   enable: false
-#   mangle: true #打印日志
-#   exclude:
-#     - '**/*.min.css'
-#     # - '**/*.min.css'
-#     - '**/style.css'
-#     # - 'jquery.fancybox.min.css'
-#     # - '**/live2d-widget/waifu.css'
-# 压缩js
-# neat_js:
-#   enable: true
-#   mangle: true #打印日志
-#   output:
-#   compress:
-#   exclude: #排除文件
-#     - '**/*.min.js'
-#     - '**/*.min.js'
-#     - '**/jquery.fancybox.min.js'
-#     - '**/live2d-widget/*.js'
-#     - '**/live2d-widget/*.min.js'
-#     - '**/botui.js'
