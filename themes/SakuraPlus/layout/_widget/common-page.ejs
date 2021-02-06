@@ -20,8 +20,11 @@
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
       <%- post.content %>
       <!-- .entry-content -->
-      <!-- <%- partial('_partial/valine') %> -->
-      <%- partial('_partial/gitalk') %>
+      <% if (post.comments){ %>
+        <!-- <%- partial('_partial/valine') %> -->
+        <%- partial('_partial/gitalk') %>
+      <% } %>
+      
       <div class="single-reward">
         <div class="reward-open">赏
           <div class="reward-main">

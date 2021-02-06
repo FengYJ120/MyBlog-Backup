@@ -3,8 +3,8 @@ title: Typora使用教程
 author: ZERO JAN
 avatar: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg'
 authorLink: 'https://www.zero-jan.xyz'
-categories: 技术
-tags: Typora
+categories: 资源
+tags: 软件相关
 description: Typora使用教程
 comments: ture
 photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/Typroa.jpeg'

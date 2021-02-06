@@ -3,7 +3,7 @@ title: hello world
 author: ZERO JAN
 avatar: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/custom/avatar.jpg'
 authorLink: 'https://www.zero-jan.xyz'
-categories: 资源
+categories: 技术
 tags: 测试
 description: hello world
 comments: false

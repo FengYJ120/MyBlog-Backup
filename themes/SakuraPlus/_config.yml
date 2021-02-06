@@ -35,17 +35,17 @@ menus:
     # 统计: {path: /analytics/ , fa: fa-line-chart },
     标签: {path: /tags, fa: fa-tags }, 
     技术: {path: /categories/技术/, fa: fa-code }, 
-    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    # 生活: {path: /categories/生活/, fa: fa-file-text-o }, 
     资源: {path: /categories/资源/, fa: fa-skyatlas },
     #随想: {path: /categories/随想/, fa: fa-commenting-o },
     #转载: {path: /categories/转载/, fa: fa-book }
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
-    悦读: {path: /books/, fa: fa-book },
-    图集: {path: /photos/, fa: fa-photo },
+    # 悦读: {path: /books/, fa: fa-book },
+    # 图集: {path: /photos/, fa: fa-photo },
+    歌单: {path: /music/, fa: fa-headphones },
     番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
     # 说说: {path: /artitalk/, fa: fa-commenting-o fa-commenting }, 
-    # 歌单: {path: /music/, fa: fa-headphones },
     # 追剧: {path: /movies/, fa: fa-film faa-vertical }
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
