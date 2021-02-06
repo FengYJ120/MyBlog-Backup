@@ -8,7 +8,7 @@ tags: 软件相关
 description: VsCode的安装、汉化及插件的安装
 comments: ture
 photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/vscode.jpeg'
-abbrlink: 12393
+abbrlink: '3069'
 date: 2019-11-18 18:59:47
 ---
 # VsCode的安装、汉化及插件的安装

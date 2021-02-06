@@ -8,7 +8,7 @@ tags: 测试
 description: hello world
 comments: false
 photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/hello-world.jpeg'
-abbrlink: 14786
+abbrlink: 39c1
 date: 2021-01-14 22:12:20
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).

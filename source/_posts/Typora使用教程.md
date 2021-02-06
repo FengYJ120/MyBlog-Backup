@@ -8,7 +8,7 @@ tags: 软件相关
 description: Typora使用教程
 comments: ture
 photos: 'https://cdn.jsdelivr.net/gh/FengYJ120/CDN-Article/other/Typroa.jpeg'
-abbrlink: 64516
+abbrlink: fc04
 date: 2020-08-01 15:06:00
 ---
 # Typora使用教程
