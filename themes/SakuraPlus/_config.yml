@@ -81,7 +81,7 @@ msocial:
 
 #--------------------------------首页----------------------------------------
 # 首页轮播图蒙版
-bgclass: filter-dot # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: t # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 # 轮播图、如果文章没有设置photos会在这里随机取图
 bg:
   - https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cover/13.png
@@ -141,7 +141,7 @@ movies:
   name: Unbroken.mp4
 
 aplayer:  ##媒体播放引擎，移动端会禁止自动播放
-  enable: ture
+  enable: true
   id: 2463172236
   server: netease
   type: playlist
@@ -252,8 +252,8 @@ rss: /atom.xml
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: false # 代码块是否可复制,true允许,false加上文章信息
-  minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
-  description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
+  minCharNumber: 64 # 至少复制多少个字符就追加版权信息.
+  description: 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
 
 # 查看大图
 fancybox:
@@ -261,7 +261,7 @@ fancybox:
 
 # 外链转知乎卡片形式 
 linkcard:
-  enable: ture #貌似和valine刷新有点冲突 ，排查中
+  enable: true #貌似和valine刷新有点冲突 ，排查中
 
 # 是否开启字数统计 (可以在post设置no_word_count: true)
 #不需要使用，直接设置值为false，或注释掉
@@ -306,27 +306,27 @@ widgetpack:
 
 # Online contact ##在线聊天 https://www.daocloud.io/
 daovoice: 
-  enable: ture
+  enable: true
   app_id: 90895c08 ##这里替换成你DaoVoice上的appid
 
-# 天气显示 http://weatherdt.com/
+# 天气显示 https://dev.qweather.com/
 weather:
   enable: false
-  app_id: yqRrzxwtvs ##这里替换成你的appid
+  app_id: ee3a952a102b4365ab55dcc08ab271a0
 
 # 建议一项只开一个
 js:
-  hititle: ture #浏览器搞笑标题
-  KeyBlock: ture #按键屏蔽,不能F12调试和查看源代码
+  hititle: true # 浏览器搞笑标题
+  KeyBlock: false # 按键屏蔽,不能F12调试和查看源代码
   bg:
-    sakura_petals: false  #仅在首页花瓣飘落（大内存）
+    sakura_petals: false  # 仅在首页花瓣飘落（大内存）
     snow_petals: false # 雪花飘落（大内存）
-    piao: false #飘动彩带
-    live2d_widget: false #看板娘 需jq（大内存）
+    piao: false # 飘动彩带
+    live2d_widget: false # 看板娘 需jq（大内存）
     bgchange: false # 是否开启壁纸切换
   clink:
-    word: ture #点击出现字效
-    love: false #点击出现爱心
+    word: true # 点击出现字效
+    love: false # 点击出现爱心
     cursor: false # 星星跟随坠落(大内存)
 
 #------------------------------CDN，非必要，不要修改-----------------------------

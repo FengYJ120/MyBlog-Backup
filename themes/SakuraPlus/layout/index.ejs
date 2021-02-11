@@ -81,9 +81,32 @@
 <% } %>
 
 <!-- weather -->
-  <% if (theme.weather.enable ){ %>
-  <script type="text/javascript">
-    WIDGET = {FID: '<%= theme.weather.app_id%>'}
-    </script>
-  <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+<% if (theme.weather.enable ){ %>
+  <div id="he-plugin-simple"></div>
+  <script>
+    WIDGET = {
+      CONFIG: {
+        "modules": "10234",
+        "background": 1,
+        "tmpColor": "4A4A4A",
+        "tmpSize": 16,
+        "cityColor": "4A4A4A",
+        "citySize": 16,
+        "aqiSize": 16,
+        "weatherIconSize": 24,
+        "alertIconSize": 18,
+        "padding": "10px 10px 10px 10px",
+        "shadow": "1",
+        "language": "auto",
+        "borderRadius": 5,
+        "fixed": "true",
+        "vertical": "middle",
+        "horizontal": "center",
+        "right": 10,
+        "top": 70,
+        "key": "<%= theme.weather.app_id%>"
+      }
+    }
+  </script>
+<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
 <% } %>
