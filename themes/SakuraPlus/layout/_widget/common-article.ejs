@@ -8,8 +8,8 @@
     src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
   </div>
   <header class="pattern-header single-header">
-    <h1 class="entry-title" style="color: black;"><%- post.title %></h1>
-    <p class="entry-census" style="color: blueviolet;">
+    <h1 class="entry-title"><%- post.title %></h1>
+    <p class="entry-census">
       <% if(post.avatar){ %>
       <span class="post-meta-item">
         <a href="<%- post.authorLink%>">
@@ -19,7 +19,7 @@
       <% } %>
       <% if(post.author){ %>
       <span class="post-meta-item">
-        <a href="<%- post.authorLink%>" style="color: blueviolet;"> <%- post.author %> </a>
+        <a href="<%- post.authorLink%>"> <%- post.author %> </a>
       </span>
       <span class="bull">
         ·</span>

@@ -1633,6 +1633,7 @@ a:active {
 
 .pattern-center h1.cat-title,
 .pattern-center h1.entry-title {
+    text-shadow: 2px 2px 2px #000;
     color: #fff;
     font-size: 40px;
     font-weight: 500;
@@ -1656,7 +1657,7 @@ a:active {
     padding: 0 10px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     top: auto;
     bottom: 20px
 }
@@ -1801,7 +1802,7 @@ a:active {
 }
 
 .single-center .entry-census {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 14px;
     padding: 18px 0 0;
     line-height: 39px
@@ -1820,7 +1821,7 @@ a:active {
 }
 
 .single-center .entry-census a {
-    color: #fff
+    color: rgb(0, 0, 0)
 }
 
 @media(max-width:860px) {
@@ -2481,7 +2482,8 @@ i.iconfont.hotpost {
     padding-left: 30px;
     padding-right: 0;
     text-align: right;
-    margin: 20px 10px 10px 0
+    margin: 20px 10px 10px 0;
+    justify-content: space-between;
 }
 
 .post-list-thumb-left .post-thumb {
@@ -2519,7 +2521,7 @@ i.iconfont.hotpost {
     .post-list-thumb-left .post-content-wrap {
         text-align: left;
         margin: 0;
-        padding: 20px;
+        padding: 3rem 2rem;
         float: none;
         box-shadow: none;
         border-top: 0
@@ -2746,7 +2748,14 @@ i.iconfont.hotpost {
 }
 
 .entry-content {
-    position: relative
+    position: relative;
+    border: 1px solid #e9ecef;
+    background-color: var(--bs-white);
+    min-height: 10rem;
+    border-radius: var(--radius);
+    color: var(--bs-dark);
+    padding: 2rem;
+    word-break: break-all;
 }
 
 .entry-content h3 {
@@ -2762,7 +2771,7 @@ i.iconfont.hotpost {
 }
 
 .entry-content h2:after {
-    content: "Ⅰ";/*\00B6*/
+    /* content: "Ⅰ";\00B6 */
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2771,7 +2780,7 @@ i.iconfont.hotpost {
 }
 
 .serif .entry-content h2:after {
-    content: "Ⅱ";
+    /* content: "Ⅱ"; */
     position: absolute;
     color: #ff6d6d;
     font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
@@ -2780,21 +2789,21 @@ i.iconfont.hotpost {
 }
 
 .entry-content h3:after {
-    content: "Ⅲ";
+    /* content: "Ⅲ"; */
     left: 0;
     position: absolute;
     color: #ff6d6d
 }
 
 .entry-content h4:after {
-    content: "IV";
+    /* content: "IV"; */
     left: 0;
     position: absolute;
     color: #ff6d6d
 }
 
 .entry-content h5:after {
-    content: "V";
+    /* content: "V"; */
     left: 0;
     position: absolute;
     color: #ff6d6d
