@@ -68,9 +68,9 @@ social:
   # zhihu: {url: https://www.zhihu.com/people/cungudafa, img: /img/social/zhihu.png}
   # jianshu: {url: /https://www.jianshu.com/u/9b726a534140, img: /img/social/jianshu.png}
   # sina: {url: http://weibo.com/3829198906/info, img: /img/social/sina.png}
-  bilibili: {url: https://space.bilibili.com/343113645, img: /img/social/bilibili.png}
+  bilibili: {url: https://space.bilibili.com/343113645, img: /img/logo/bilibili.ico}
   # wangyiyun: {url: https://music.163.com/#/user/home?id=337394988, img: /img/social/wangyiyun.png}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2037017854&site=qq&menu=yes, img: /img/social/qq.png}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2037017854&site=qq&menu=yes, img: /img/social/qq.jpeg}
   wechat: {url: /#, qrcode: /img/custom/wechat.png, img: /img/social/wechat.png}
 
 #social  url, img 移动端配置

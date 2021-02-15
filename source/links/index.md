@@ -48,11 +48,11 @@ links:
       name: 力扣
       desc: 海量技术面试题库,算法、数据结构、系统设计等题目
     - url: http://www.openedv.com/
-      img: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/logo/openedv.png
+      img: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/logo/openedv.ico
       name: OpenEdv-开源电子网
       desc: 专注STM32/8开发板,FPGA,ARM Linux,51单片机,ARM,FPGA,DSP等板块。
     - url: https://www.bilibili.com/
-      img: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/logo/bilibili.png
+      img: https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/logo/bilibili.ico
       name: B站
       desc: 国内知名的视频弹幕网站
   - group: 小伙伴们
