@@ -907,7 +907,7 @@ template {
 a {
     /* 帮助选择 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur), auto */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/Help.cur), auto
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/Help.cur), auto
 }
 
 a:link {
@@ -923,7 +923,7 @@ a:hover {
 a:active {
     /* 后台运行 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur), alias */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/AppStarting.ani), alias
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/AppStarting.ani), alias
 }
 
 abbr[title] {
@@ -1132,7 +1132,7 @@ p {
     font-size: 15px;
     /* 文本选择 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur), auto */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/IBeam.cur), auto
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/IBeam.cur), auto
 }
 
 dfn,
@@ -1282,7 +1282,7 @@ body {
     background-attachment: fixed;
     /* 正常选择 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur), auto */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/Arrow.cur), auto
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/Arrow.cur), auto
 }
 
 blockquote:before,
@@ -2943,7 +2943,7 @@ h1.page-title.mb- {
     transition: all .5s ease-in-out;
     /* 不可用 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur), auto; */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/NO.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/NO.cur), auto;
     opacity: 1
 }
 
@@ -5039,7 +5039,7 @@ li.feature-2 {
         margin-right: 0px !important;
         /* 帮助选择 */
         /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur), auto !important; */
-        cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/Help.cur), auto !important;
+        cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/Help.cur), auto !important;
     }
 
     #bgvideo {
@@ -7040,7 +7040,7 @@ i.iconfont.down {
     line-height: 1;
     /* 不可用 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur), auto; */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/NO.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/NO.cur), auto;
     font-size: 14px;
     font-weight: 500;
     padding: 7px 15px;
@@ -7201,7 +7201,7 @@ input.botui-actions-text-input::-moz-focus-inner {
 button.botui-actions-buttons-button {
     /* 不可用 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur), auto; */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/NO.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/NO.cur), auto;
     -webkit-appearance: button
 }
 
@@ -8743,7 +8743,7 @@ a.toc-link {
 .tieba-container span {
     /* 不可用 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur), auto */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/NO.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/NO.cur), auto;
 }
 
 .alignright {
@@ -9210,7 +9210,7 @@ a.toc-link {
     border-radius: 0 0 5px 5px;
     /* 文本选择 */
     /* cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur), auto */
-    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked Mod/IBeam.cur), auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/FengYJ120/CDN/MyBlog/img/cursor/Hacked_Mod/IBeam.cur), auto;
 }
 
 .highlight-wrap code[data-rel]:before {
