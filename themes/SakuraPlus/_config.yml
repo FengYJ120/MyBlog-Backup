@@ -317,7 +317,7 @@ weather:
 # 建议一项只开一个
 js:
   hititle: true # 浏览器搞笑标题
-  KeyBlock: false # 按键屏蔽,不能F12调试和查看源代码
+  KeyBlock: true # 按键屏蔽,不能F12调试和查看源代码
   bg:
     sakura_petals: false  # 仅在首页花瓣飘落（大内存）
     snow_petals: false # 雪花飘落（大内存）
