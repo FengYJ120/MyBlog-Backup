@@ -7,16 +7,43 @@
     <title>测试</title>
 </head>
 <body>
-    <div>
-        
+    <div style="text-align: center;">
+        <form id="idform" action="#" method="GET">
+            学号:<input type="test" name="stuid"/><br/><br/>
+            姓名:<input type="test" name="stuname"/><br/><br/>
+            性别:男<input type="radio" name="gander" id="gander" value="男">
+            女<input type="radio" name="gander" id="gander2" value="女"><br/><br/>
+            学院:<input type="test" name="stusch"/><br/><br/>
+            专业班级:<input type="test" name="stuclass"/><br/><br/>
+            <button onclick="OUT3()" type="submit" value="出校"/>3号门出校</button>
+            <button onclick="IN3()" type="submit" value="入校"/>3号门入校</button>
+            <button onclick="OUT1()" type="submit" value="出校"/>1号门出校</button>
+            <button onclick="IN1()" type="submit" value="入校"/>1号门入校</button>
+        </form>
+        <script type="text/javascript">
+            function OUT1(){
+                var s=document.getElementById("idform")
+                s.setAttribute("action", "out1.html");
+            }
+            function OUT3(){
+                var s=document.getElementById("idform")
+                s.setAttribute("action", "out3.html");
+            }
+            function IN1(){
+                var s=document.getElementById("idform")
+                s.setAttribute("action", "in1.html");
+            }
+            function IN3(){
+                var s=document.getElementById("idform")
+                s.setAttribute("action", "in3.html");
+            }
+        </script>
     </div>
-    <div style="align-items: center;">  
+    <!-- <div style="align-items: center;">  
         <a href="out.html" >出校门</a>
     </div>
     <div>
         <a href="in.html">进校门</a>
-    </div>
-    
-    
+    </div> --> 
 </body>
 </html>

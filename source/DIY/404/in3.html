@@ -87,11 +87,61 @@
                         <ul>
                             <li>请做好个人防护，按照规定及时返校！</li>
                             <br>
-                            <li>学号：201810916201</li>
-                            <li>姓名：唐三</li>
-                            <li>性别：男</li>
-                            <li>学院：史莱克学院</li>
-                            <li>班级：蓝银草工程1842</li>
+                            <li>
+                                <script type="text/javascript" charset='gb2312'>
+                                    function GetQueryString(name) {
+                                           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                           var r = window.location.search.substr(1).match(reg);
+                                           if (r!=null) return decodeURIComponent(r[2]); return null;
+                                    }
+                                    var stuid = GetQueryString("stuid");
+                                    document.write("学号："+stuid);
+                                </script>
+                            </li>
+                            <li>
+                                <script type="text/javascript" charset='UTF-8'>
+                                    function GetQueryString(name) {
+                                           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                           var r = window.location.search.substr(1).match(reg);
+                                           if (r!=null) return decodeURIComponent(r[2]); return null;
+                                    }
+                                    var stuname = GetQueryString("stuname"); 
+                                    document.write("姓名："+stuname);
+                                </script>
+                            </li>
+                            <li>
+                                <script type="text/javascript" charset='UTF-8'>
+                                    function GetQueryString(name) {
+                                           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                           var r = window.location.search.substr(1).match(reg);
+                                           if (r!=null) return decodeURIComponent(r[2]); return null;
+                                    }
+                                    var gander = GetQueryString("gander"); 
+                                    document.write("性别："+gander);
+                                </script>
+                            </li>
+                            <li>
+                                <script type="text/javascript" charset='UTF-8'>
+                                    function GetQueryString(name) {
+                                           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                           var r = window.location.search.substr(1).match(reg);
+                                           if (r!=null) return decodeURIComponent(r[2]); return null;
+                                    }
+                                    var stusch = GetQueryString("stusch"); 
+                                    document.write("学校："+stusch);
+                                </script>
+                            </li>
+                            <li>
+                                <script type="text/javascript" charset='gb2312'>
+                                    function GetQueryString(name) {
+                                           var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                           var r = window.location.search.substr(1).match(reg);
+                                           if (r!=null) return decodeURIComponent(r[2]); return null;
+                                    }
+                                    var stuclass = GetQueryString("stuclass");
+                                    document.write("班级："+stuclass);
+                                </script>
+                            </li>
                             <li>
                                 <font style="font-size:30pt;" color="FF0000">
                                     <b>3号门入，</b><br>
