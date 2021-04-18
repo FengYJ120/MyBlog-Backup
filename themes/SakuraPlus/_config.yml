@@ -57,6 +57,7 @@ menus:
     # Lab: {path: /lab/, fa: fa-cogs },
     # valine: {path: /valine/, fa: fa-cogs }
   } }
+  DIY: { path: /DIY/404, fa: fa-android faa-vertical }
   # 项目: { path: /client/, fa: fa-android faa-vertical }
   RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
 
