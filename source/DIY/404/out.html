@@ -145,9 +145,15 @@
                             <br>
                             <li>
                                 <font style="font-size:30pt;" color="FF0000">
-                                    <b>1号门入，</b><br>
-                                </font>
-                                <font style="font-size:30pt;" color="FF0000">
+                                    <script type="text/javascript" charset='gb2312'>
+                                        function GetQueryString(name) {
+                                               var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+                                               var r = window.location.search.substr(1).match(reg);
+                                               if (r!=null) return decodeURIComponent(r[2]); return null;
+                                        }
+                                        var door = GetQueryString("door");
+                                        document.write("<b>"+door+"出"+"</b>"+"<br>");
+                                    </script>
                                     <script type="text/javascript">
                                         var t = new Date();//获取当前时间
                                         var year = t.getFullYear();//获取当前时间年份

@@ -7,6 +7,10 @@
     <title>测试</title>
 </head>
 <body>
+    <div>
+        <h1 style="color:red ;text-align: center;">制作不易，请勿随意传播本链接！</h1>
+        <h1 style="color:red ;text-align: center;">私下里用用就行</h1>
+    </div>
     <div style="text-align: center;">
         <form id="idform" action="#" method="GET">
             学号:<input type="test" name="stuid"/><br/><br/>
@@ -15,27 +19,20 @@
             女<input type="radio" name="gander" id="gander2" value="女"><br/><br/>
             学院:<input type="test" name="stusch"/><br/><br/>
             专业班级:<input type="test" name="stuclass"/><br/><br/>
-            <button onclick="OUT3()" type="submit" value="出校"/>3号门出校</button>
-            <button onclick="IN3()" type="submit" value="入校"/>3号门入校</button>
-            <button onclick="OUT1()" type="submit" value="出校"/>1号门出校</button>
-            <button onclick="IN1()" type="submit" value="入校"/>1号门入校</button>
+            校门:1<input type="radio" name="door" id="door" value="1号门">
+            3<input type="radio" name="door" id="door2" value="3号门">
+            6<input type="radio" name="door" id="door3" value="6号门"><br/><br/>
+            <button onclick="OUT()" type="submit" value="出校"/>出校</button>
+            <button onclick="IN()" type="submit" value="入校"/>入校</button>
         </form>
         <script type="text/javascript">
-            function OUT1(){
+            function OUT(){
                 var s=document.getElementById("idform")
-                s.setAttribute("action", "out1.html");
+                s.setAttribute("action", "out.html");
             }
-            function OUT3(){
+            function IN(){
                 var s=document.getElementById("idform")
-                s.setAttribute("action", "out3.html");
-            }
-            function IN1(){
-                var s=document.getElementById("idform")
-                s.setAttribute("action", "in1.html");
-            }
-            function IN3(){
-                var s=document.getElementById("idform")
-                s.setAttribute("action", "in3.html");
+                s.setAttribute("action", "in.html");
             }
         </script>
     </div>
