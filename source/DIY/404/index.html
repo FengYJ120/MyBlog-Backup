@@ -13,24 +13,63 @@
     </div>
     <div style="text-align: center;">
         <form id="idform" action="#" method="GET">
-            学号:<input type="test" name="stuid"/><br/><br/>
-            姓名:<input type="test" name="stuname"/><br/><br/>
+            学号:<input type="test" name="stuid" id="stuid"><br/><br/>
+            姓名:<input type="test" name="stuname" id="stuname"><br/><br/>
             性别:男<input type="radio" name="gander" id="gander" value="男">
             女<input type="radio" name="gander" id="gander2" value="女"><br/><br/>
-            学院:<input type="test" name="stusch"/><br/><br/>
-            专业班级:<input type="test" name="stuclass"/><br/><br/>
+            学院:<input type="test" name="stusch" id="stusch"><br/><br/>
+            专业班级:<input type="test" name="stuclass" id="stuclass"><br/><br/>
             校门:1<input type="radio" name="door" id="door" value="1门号">
             3<input type="radio" name="door" id="door2" value="3门号">
             6<input type="radio" name="door" id="door3" value="6门号"><br/><br/>
+            <input type="checkbox" id="remember">记住我<br/><br/>
             <button onclick="OUT()" type="submit" value="出校"/>出校</button>
             <button onclick="IN()" type="submit" value="入校"/>入校</button>
         </form>
         <script type="text/javascript">
+            var stuid = document.getElementById('stuid'),
+                stuname = document.getElementById('stuname'),
+                stusch = document.getElementById('stusch'),
+                stuclass = document.getElementById('stuclass'),
+                check = document.getElementById('remember'),
+                localstuid  = localStorage.getItem('stuid') || ''; //获取到user的值并保存
+                localstuname  = localStorage.getItem('stuname') || '';
+                localstusch  = localStorage.getItem('stusch') || '';
+                localstuclass  = localStorage.getItem('stuclass') || '';
+                stuid.value = localstuid;
+                stuname.value = localstuname;
+                stusch.value = localstusch;
+                stuclass.value = localstuclass;
+                if (localstuid !== '' && localstuname !== '' && localstusch !== '' && localstuclass !== '' ) {
+                    check.setAttribute('checked', '');
+                }
             function OUT(){
+                if (check.checked) {
+                    localStorage.setItem('stuid', stuid.value);
+                    localStorage.setItem('stuname', stuname.value);
+                    localStorage.setItem('stusch', stusch.value);
+                    localStorage.setItem('stuclass', stuclass.value);
+                } else {
+                    localStorage.setItem('stuid', '');
+                    localStorage.setItem('stuname', '');
+                    localStorage.setItem('stusch', '');
+                    localStorage.setItem('stuclass', '');
+                }
                 var s=document.getElementById("idform")
                 s.setAttribute("action", "out.html");
             }
             function IN(){
+                if (check.checked) {
+                    localStorage.setItem('stuid', stuid.value);
+                    localStorage.setItem('stuname', stuname.value);
+                    localStorage.setItem('stusch', stusch.value);
+                    localStorage.setItem('stuclass', stuclass.value);
+                } else {
+                    localStorage.setItem('stuid', '');
+                    localStorage.setItem('stuname', '');
+                    localStorage.setItem('stusch', '');
+                    localStorage.setItem('stuclass', '');
+                }
                 var s=document.getElementById("idform")
                 s.setAttribute("action", "in.html");
             }
